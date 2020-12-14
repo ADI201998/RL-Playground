@@ -2,7 +2,7 @@ import gym
 import numpy as np
 import random
 
-env = gym.make("MountainCar-v0").env
+env = gym.make("CartPole-v0").env
 env.reset()
 print("Action Space {}".format(env.action_space))
 print("State Space {}".format(env.observation_space))
